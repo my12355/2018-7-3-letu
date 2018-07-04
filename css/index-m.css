@@ -1,0 +1,430 @@
+@charset "utf-8";
+/* CSS Document */
+.banner img{width:100%;height:auto}
+.con01{width:100%;height:730px;background:url(http://img1.lotour.com/zhuanti/nmg/nmg-bg_02.jpg) no-repeat center}
+.con-bd{position:relative;width:990px;margin:0 auto;overflow:hidden}
+.con01 .con-bd .map-txt{position:absolute;top:90px;left:155px;width:315px;height:auto}
+.con01 .con-bd .map{position:absolute;top:85px;right:115px;width:795px;height:auto}
+.con01 .mapbox{height:730px}
+.con2{width:100%;height:445px;background:url(http://img1.lotour.com/zhuanti/nmg/nmg-bg_03.jpg) no-repeat center}
+.con2 .con-left{float:left;width:425px;margin:55px 22px}
+.con2 .con-left h2{font:24px/28px '微软雅黑';color:#feff01;margin-bottom:15px}
+.con2 .con-left h2 span{font:18px/28px '微软雅黑';color:#a9b766;margin-left:10px}
+.con2 .con-left>p{font:16px/34px '微软雅黑';color:#fefeff}
+.con2 .con-left>p a{color:#fefeff}
+.con2 .con-left>p span{float:right}
+.con2 .con-left .more{margin-top:20px;border-top:1px solid #587dba}
+.con2 .con-left .more p{font:16px/55px '微软雅黑';color:#fefeff;text-align:center}
+.con2 .con-left .more p a{color:#fefeff}
+.con2 .con-left p a:hover{color:#feff01}
+.con2 .con-right{float:right;width:430px;margin:73px 50px 0 0}
+.con2 .shipin{float:left;position:relative;width:430px;height:275px;background:url(http://img1.lotour.com/zhuanti/nmg/ship-border.png) no-repeat center;}
+.con2 .video{margin:23px 23px 10px;}
+.con2 .vi{margin-top:30px;text-align:center;font:16px/38px '微软雅黑';color:#0259a9}
+.con2 .vi a{color:#0259a9}
+#JWPlayer{width:383px;height:230px}
+
+.con3{width:100%;height:1090px;background:url(http://img1.lotour.com/zhuanti/nmg/nmg-bg_04.jpg) no-repeat center}
+.con3 .hed-top{margin:80px 22px 0 22px}
+.con3 .hed-top h1{font:bold 30px/38px '微软雅黑';color:#feff01;text-align:center}
+.con3 .hed-top .yingwen{height:20px;font:14px/20px '微软雅黑';color:#2957a7;text-align:center;margin-bottom:10px}
+.con3 .hed-top .hed-txt{width:850px;margin:0 auto;font:14px/24px '微软雅黑';color:#2957a7;text-align:center}
+.con3 .hed-bd{width:950px;margin:60px auto 0}
+.con3 .hed-bd .tit .zuopin{float:left;font:bold 20px/24px '微软雅黑';color:#333}
+.con3 .hed-bd .tit .chakan{float:right;font:16px/35px '微软雅黑';text-align:center}
+.con3 .hed-bd .tit .chakan span{display:block;width:90px;height:35px;float:left}
+.con3 .hed-bd .tit .chakan span.guize{color:#0058a7;margin-right:24px}
+.con3 .hed-bd .tit .chakan span.guize a{color:#0058a7}
+.con3 .hed-bd .tit .chakan span.canyu{color:#ec6909;cursor:pointer}
+.con3 .hed-bd .bd-pic ul{margin-top:10px}
+.con3 .hed-bd .bd-pic li{float:left;position:relative;width:310px;height:210px;margin:0 10px 10px 0;overflow:hidden;cursor:pointer;}
+.con3 .hed-bd .bd-pic li img{width:100%;height:auto}
+.con3 .hed-bd .bd-pic li .pic-info{display:none;position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden;background:url(http://img1.lotour.com/zhuanti/nmg/con3-info-bg.png) repeat center;color:#fff;text-align:center;z-index:2}
+.con3 .hed-bd .bd-pic li .pic-info h2{font:bold 18px/30px '微软雅黑';text-align:center;margin-top:30px}
+.con3 .hed-bd .bd-pic li .pic-info .zuozhe{font:16px/24px '微软雅黑';text-align:center}
+.con3 .hed-bd .bd-pic li .pic-info .miaoshu{width:280px;margin:45px auto 0;font:14px/24px '微软雅黑';text-align:center}
+.con3 .hed-bd .bd-pic li.mr0{margin-right:0}
+.con3 .Mc{width: 100%;height: 100%;z-index: 9999;background: rgba(0,0,0,.85);position: fixed;left: 0;top: 0;display: none;}
+.con3 .Mc .BpicWrap{width: 640px;height: 478px;background: #fff;border-radius: 6px;position: absolute;left: 50%;top: 50%;margin-left: -310px;margin-top: -220px;padding: 10px;box-sizing: border-box;}
+.con3 .Mc .BpicWrap .close {position: absolute;right: 10px;bottom: 10px;cursor: pointer;}
+.con3 .Mc .BpicWrap .con02Bpic {width: 620px;height: 420px;}
+.left, .right {display: inline-block;width: 15px;height: 22px;cursor: pointer; margin: 12px 10px;}
+.whiteMc {position: absolute;left: 20px;bottom: 14px;display: inline-block;width: 15px;height: 22px;background: rgba(255,255,255,.6);display: none;}
+.whiteMc.rg {left: 60px;}
+
+.fanye{width:980px;height:32px;overflow:hidden;margin:0 auto;text-align:center;margin-top:10px;}
+.fanye a{display:inline-block;margin-right:10px;width:30px;height:30px;border-radius:5px;-o-border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;background:#fff;font:14px/30px \5FAE\8F6F\96C5\9ED1,"Microsoft YaHei";color:#848484;text-align:center;font-weight:normal}
+.fanye a.on{color:#fff;background:#ffba00;font-weight:bold;border:0 none;}
+
+.con4{width:100%;height:945px;background:url(http://img1.lotour.com/zhuanti/nmg/nmg-bg_05.jpg) no-repeat center}
+.con4 .bd-pic{width:950px;margin:235px auto 0}
+.con4 .bd-pic li{float:left;position:relative;width:312px;height:210px;overflow:hidden;margin:0 5px 10px 0}
+.con4 .bd-pic li img{width:100%;height:auto}
+.con4 .bd-pic li .qi{position:absolute;right:10px;top:0;width:75px;height:80px;background:url(http://img1.lotour.com/zhuanti/nmg/con4-hongjiap.png) no-repeat center}
+.con4 .bd-pic li .qi span{display:block;width:60px;margin:0 auto;font:12px/20px '微软雅黑';color:#fff;text-align:center}
+.con4 .bd-pic li.mr0{margin-right:0}
+
+.lunbo-cont{position:relative;width:950px;height:370px;margin:0 auto;}
+.lbcont-right{float:left;height:370px;}
+.lbcont-left{position:absolute;right:0;top:0;width:475px;height:370px;background:#fff;}
+.lbcont-left ul{margin-left:97px}
+.lbcont-left ul li{float:left;margin:40px 12px 0;display:inline;cursor:pointer;}
+.lbcont-left ul li img{width:91px;height:91px;border:2px solid #fff;border-radius:100%; -moz-border-radius:100%;-webkit-border-radius:100%;}
+.lbcont-left ul li p{text-align:center;margin-top:10px}
+.lbcont-left ul li a{color:#666;}
+.lbcont-left ul li.cur img{border:2px solid #ea4913;}
+.lbcont-left ul li.cur a{color:#ea4913;}
+.lbcont-right{width:560px;height:370px;position:relative;}
+.tabpic{width:560px;height:370px;position:relative;}
+.tabpic ul{position:absolute;top:0;left:0;}
+.tabpic ul li{position:relative;width:560px;height:370px;overflow:hidden;position:absolute;left:0;top:0;z-index:0;filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity: 0;opacity: 0;border-radius:0 0 80px 0}
+.tabpic ul li img{width:100%;height:100%}
+.tabpic ul li.cur{filter:alpha(opacity=100);-moz-opacity:1;-khtml-opacity:1;opacity:1;z-index:1;}
+.tabpic ul li p{position:absolute;bottom:0;left:0;width:100%;height:69px;background:url(http://img1.lotour.com/zhuanti/nmg/lunbo-txtbg.png) no-repeat center}
+.tabpic ul li p span{display:block;margin-left:30px;font:18px/69px '微软雅黑';color:#fffefe}
+
+.lunbo .btn{display:none;width:560px;height:20px;text-align:center;position: absolute;bottom:5px;left:0;z-index:2;}
+.lunbo .btn span{width:15px;height:15px;display:inline-block;text-align:center;margin-left:5px;background:#fff;cursor:pointer;}
+.lunbo .btn span.cur{background:#ea4913;}
+
+.tanceng{display:none;position:fixed;top:0;left:0;z-index:21;width:100%;height:100%;background:url(http://img1.lotour.com/zhuanti/nmg/tanceng-bg.png) repeat center}
+.tanceng .main{display:none;position:absolute;top:50%;left:50%;margin: -288px 0 0 -270px;width: 540px;height: 575px;background:#fff;border-radius:5px}
+.tanceng .main h2{height:57px;padding-left:20px;border-bottom:1px solid #e0e0e0;font:20px/57px '微软雅黑';color:#333}
+.tanceng .main .p-65{width:100%;height: 50px;border-bottom: 1px solid #e0e0e0;font: 14px/50px '微软雅黑';color:#333}
+.tanceng .main .p-65 span{display:block;float:left;width:140px;margin-left:20px}
+.tanceng .main .p-65 input{width:350px;height: 34px;padding-left: 10px;border: 1px solid #e0e0e0;border-radius: 5px;margin-top: 7px;background:#f7f7f7}
+.tanceng .main .shangchuan{width:100%;height:150px;border-bottom:1px solid #e0e0e0;font:14px/65px '微软雅黑';color:#333}
+.tanceng .main .shangchuan span{display:block;float:left;width:140px;margin-left:20px}
+.tanceng .main .shangchuan p{float:left;width:120px;height:120px;margin-top:15px}
+.tanceng .main .shangchuan p img{width:100%;height:100%}
+.tanceng .main .shangchuan input{position:absolute;top:0;left:0;width:100px;height:30px;opacity:0;}
+.tanceng .main .shangchuan .inp{position:relative;float:left;margin-left:25px;margin-top:60px}
+.tanceng .main .shangchuan .inp span{position:absolute;top:0;left:-20px;display:block;width:100px;height:30px;background:url(http://img1.lotour.com/zhuanti/nmg/file.png) no-repeat center;font:14px/30px '微软雅黑';color:#333;text-align:center;cursor:pointer}
+.tanceng .main .tijiao{float:right;margin-top:10px;margin-right:20px;width:110px;height:40px;background:#ff9900;border-radius:5px;font:18px/40px '微软雅黑';color:#fff;text-align:center}
+.tanceng .main .tishi{float:left;margin-left:20px;font:16px/40px '微软雅黑';color:#ff001e;margin-top:15px}
+.tanceng .main .chacha{position:absolute;right:20px;top:20px;width:11px;height:11px;background:url(http://img1.lotour.com/zhuanti/nmg/chacha.png) no-repeat center}
+.tanceng .chenggong{display:none;position:absolute;top:50%;left:50%;border-radius:5px;background:#fff;margin-top:-102px;margin-left:-165px;width:330px;height:205px}
+.tanceng .chenggong .chacha{position:absolute;right:20px;top:20px;width:11px;height:11px;background:url(http://img1.lotour.com/zhuanti/nmg/chacha.png) no-repeat center}
+.tanceng .chenggong img{display:block;margin:38px auto 0;width:70px;height:70px}
+.tanceng .chenggong .sucss-txt{width:115px;margin:20px auto 0;font:16px/24px '微软雅黑';color:#333;text-align:center}
+
+
+
+/*翻页wap*/
+/*.fanye{width:100%;height:.4rem;overflow:hidden;margin:0 auto;text-align:center;margin-top:.2rem;}
+.fanye a{display:inline-block;margin-right:.2rem;width:.4rem;height:.4rem;border-radius:.05rem;-o-border-radius:.05rem;-moz-border-radius:.05rem;-webkit-border-radius:.05rem;background:#fff;border:1px solid #e1e1e1;font:.22rem/.4rem \5FAE\8F6F\96C5\9ED1,"Microsoft YaHei";color:#4ea100;text-align:center;font-weight:normal;}
+.fanye a.page{width:.85rem;height:.4rem;}
+.fanye a.on{color:#fff;background:#4ea100;font-weight:bold;border:0 none;}
+*/
+
+
+
+
+
+/*风姿冰雪景*/
+.n-5{width:100%;height:1295px;background:url(http://img1.lotour.com/zhuanti/nmg/nmg-bg2_01.jpg) no-repeat center;overflow:hidden;}
+.fz{width:990px;height:auto;padding-top:125px;margin:0 auto;}
+.fz ul{width:948px;height:auto;margin:125px auto 0;overflow:hidden;}
+.fz ul li{width:308px;height:297px;}
+.fz ul li.fzb{width:624px;}
+.fz ul li p{display: none;position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: url(http://img1.lotour.com/zhuanti/shannan2016/touming-bg_03.png) repeat center;}
+.fz ul li p span{position: absolute;top: 50%;left: 50%;margin-top: -30px;margin-left: -99px;display: block;width: 198px;height: 60px;overflow:hidden;font: normal 20px/60px \5FAE\8F6F\96C5\9ED1,"Microsoft YaHei";color: #fff;text-align: center;background: url(http://img1.lotour.com/zhuanti/shannan2016/kuang-bg_03.png) no-repeat center;}
+
+/*尽享趣味游*/
+.n-6{width:100%;height:1310px;background:url(http://img1.lotour.com/zhuanti/nmg/nmg-bg2_02.jpg) no-repeat center;overflow:hidden;}
+.jx{width:990px;height:auto;padding-top:125px;margin:0 auto;}
+.jx .jxul{width:960px;height:auto;margin:125px auto 0;}
+.jx .jxul li,.fz ul li{margin:0 4px 8px;float:left;overflow:hidden;position:relative;}
+.jx .jxul .fl{float:left;width:640px;}
+.jx .jxul .fl li{width:311px;height:298px;}
+.jx .jxul .fl li.fxb{width:630px;}
+.jx .jxul .fr{float:right;width:320px;}
+.jx .jxul .fr li{width:310px;height:221px;}
+
+/*体验民族情*/
+.n-7{width:100%;height:1065px;background:url(http://img1.lotour.com/zhuanti/nmg/nmg-bg2_03.jpg) no-repeat center;overflow:hidden;}
+.n-7 .ty{width:990px;height:auto;padding-top:125px;margin:0 auto;}
+.n-7 .ty .tyul{width:960px;height:auto;margin:115px auto 0;}
+.n-7 .ty .tyul li{width:232px;height:224px;float:left;margin:0 4px;margin-bottom:8px;list-style:none;overflow:hidden;}
+.n-7 .ty .tyul li img{width:100%;height:100%;transition: all .8s ease-in-out;}
+.n-7 .ty .tyul li img:hover{width:120%;height:120%;}
+.n-7 .ty .tyul .fl{width:480px;float:left;}
+.n-7 .ty .tyul li.tyb{width:472px;}
+.n-7 .ty .tyul .fr{float:right;width:480px;}
+
+/*中俄蒙之旅*/
+.n-8{width:100%;height:1067px;background:url(http://img1.lotour.com/zhuanti/nmg/nmg-bg2_04.jpg) no-repeat center;overflow:hidden;}
+.zl{width:990px;height:auto;padding-top:125px;margin:0 auto;}
+.zl .zemul{width:950px;height:auto;margin:106px auto 0;}
+.zl .zemul li,.ty .tyul li{position:relative;overflow:hidden;}
+.zl .zemul .fl{float:left;width:470px;}
+.zl .zemul .fl li{float:left;width:230px;height:222px;margin-bottom:8px;}
+.zl .zemul .fl li.flt{width:472px;height:222px;}
+.zl .zemul .fl li.flb{width:231px;height:451px;margin-right:8px;}
+.zl .zemul .fr{float:right;width:470px;}
+.zl .zemul .fr li{width:100%;margin-bottom:8px;}
+.zl .zemul li img,.jx .jxul img,.fz ul img{width:100%;height:100%;}
+.zl .zemul li p,.ty .tyul li p,.jx .jxul li p{position:absolute;width:100%;height:60px;font:14px/45px '微软雅黑';text-align:center;color:#fff;background:url(http://img1.lotour.com/zhuanti/nmg/text_bg.png) repeat center;bottom: -60px;left: 0;z-index: 1;transition: all .8s ease-in-out;}
+.zl .zemul li:hover p{bottom:0;}
+.ty .tyul li:hover p{bottom:0;}
+.jx .jxul li:hover p{bottom:0;}
+/*冰雪奇缘游*/
+.n-9{width:100%;height:1193px;background:url(http://img1.lotour.com/zhuanti/nmg/nmg-bg2_05.jpg) no-repeat center;overflow:hidden;}
+.bing{width:990px;height:auto;padding-top:125px;margin:0 auto;}
+.bing p,.zl p,.ty p,.jx p,.fz p{width:100%;height:28px;font:16px/28px '微软雅黑';text-align:center;color:#0058a7;}
+.bing ul{width:960px;height:auto;overflow:hidden;margin:100px auto 0;}
+.bing ul li{width:312px;margin:0 4px 22px;float:left;height:245px;overflow:hidden;position:relative;}
+.bing ul li img{width:100%;height:210px;}
+.bing ul li i{width:130px;height:35px;display:block;position:absolute;top:10px;left:0;background:url(http://img1.lotour.com/zhuanti/nmg/tag.png) no-repeat left center;}
+.bing ul li p{width:100%;height:36px;font:16px/36px '微软雅黑';text-align:left;text-indent:10px;color:#00225d;overflow:hidden;}
+.bing .fanye a.on{background:#0058a7;}
+/*专题回顾*/
+.n-10{width:100%;height:455px;background:url(http://img1.lotour.com/zhuanti/nmg/nmg-bg2_06.jpg) no-repeat center;overflow:hidden;}
+.zhuan{width:1203px;height:auto;margin:0 auto;padding-top:150px;}
+.zhuan .z-box{float:left;margin:0 3px;width:294px;height:200px;overflow:hidden;}
+.zhuan .z-box:last-child{margin-right:0;}
+.zhuan .z-box img{width:295px;height:auto;}
+/*飘窗*/
+.piaochuang {width: 172px;height: 500px;clear: both; position: fixed;right:75px;z-index:20;bottom: 20px;_position: absolute;_margin-bottom: 247px; _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));background: url(http://img1.lotour.com/zhuanti/nmg/pc.png) no-repeat center 0;}
+.piaochuang a {width: 114px;height: 37px;margin:0 auto 10px;display: block;}
+.piaochuang a.h_top {margin-top: 80px;}
+@media screen and (max-width:1440px){
+    .piaochuang{right:20px;}
+    .zhuan{width:990px;}
+    .zhuan .z-box{width:240px;height:162px;}
+    .zhuan .z-box img{width:240px;}
+
+}
+
+.map-2{display:none}
+.m-mudidi{display:none}
+.m-banner{display:none}
+.con-left .point{display:none;}
+.con3 .hed-bd .tit .chakan span.m-jiang{display:none}
+.pic-info .yuan{display:none}
+.m-more{display:none}
+.n-10-2{display:none}
+.lbcont-left li i{display:none}
+.m-add{display:none}
+.m-j{display:none}
+.tanceng .main .m-sctp{display:none}
+
+@media screen and (max-width:768px){
+    body{font-family:"Micsoft Yahei"}
+    .m-banner{display:block}
+    .pc-banner{display:none}
+    .con01{background:none}
+    .map-txt{display:none}
+    .map-2{display:block;position: absolute; width: 100%; height: 6.2rem;}
+    .map{display:none}
+    .m-mudidi{display:block;padding:0rem 0.18rem;}
+    .con01 .mapbox{width:100%;height:6.2rem}
+    .m-mudidi .tit{font: 0.22rem/0.3rem '微软雅黑';color:#999;    margin-bottom: .1rem;}
+
+    .m-mudidi ul li{float:left;width:2.30rem;height:2.85rem;margin-right:.12rem}
+    .m-mudidi ul li p{text-align:center;margin-top:.18rem;margin-right: .05rem;}
+    .m-mudidi ul li.no{margin-right:0rem}
+    .m-mudidi ul li img{display:inline-block;width:2.30rem;height:2.00rem;border-radius:.05rem;}
+    .m-mudidi ul li .s1{display:inline-block;width:.28rem;height:.28rem;border-radius:.05rem;background:#dd144a;color:#fff;font-size:.2rem;line-height:.28rem;text-align: center;margin-right:.05rem}
+    .m-mudidi ul li .s2{font: 0.26rem/0.3rem '微软雅黑';position: relative;top: .02rem;}
+    .con2{background:url(http://img1.lotour.com/zhuanti/nmg/m-new_08.png);width:100%;height:11.18rem;    background-size: 100%;}
+    .con-bd{width:100%}
+    .con2 .con-left{width:100%;margin:28px 22px}
+    .con2 .con-right{width:100%;margin:0}
+    .con2 .con-left h2{text-align:center;font-size: .42rem;margin-bottom:10px}
+    .con2 .con-left h2 span{font-size: .3rem;}
+    .con2 .con-left>p{font-size:.3rem}
+    .con2 .con-left>p span.riqi{display:none}
+    .more{display:none}
+    .con2 .shipin{width:7.14rem;height:4.54rem;  margin-left: .18rem;  background: url(http://img1.lotour.com/zhuanti/nmg/m-shipin_09.png) no-repeat center;background-size: 100%;}
+    #JWPlayer{width: 6.5rem; height: 4.58rem; position: relative; top: -.66rem;}
+    .con3 .hed-top{margin:0rem;margin-top:1.2rem}
+    .con2 .video{margin: 0rem;width: 6.35rem;height: 3.85rem; overflow: hidden;margin-top: 0.28rem;margin-left: .38rem;position: relative;
+        top: .05rem;}
+    .con01{height:auto}
+    .con-left .point{display:inline-block;width:.16rem;height:.16rem;border-radius:.08rem;;background:#fff; margin-right:.1rem}
+    .con3{background:url(http://img1.lotour.com/zhuanti/nmg/m-ying_02.png);background-size:100%;margin-top:-.3rem;height:19.2rem}
+    .con3 .hed-top h1{font-size:.42rem;margin-top:-.8rem}
+    .con3 .hed-top .hed-txt{width:6.8rem;font-size:.22rem;line-height:.3rem;margin-top:-.5rem}
+    .con3 .hed-bd .tit .zuopin{font-size:.24rem;margin-left:.2rem}
+    .con2 .con-left>p{line-height:.55rem}
+    .con3 .hed-bd{margin:0;margin-top:1rem;width:auto}
+    .m-three{display:block;width:5.3rem;    margin-left: 2rem;}
+    .m-three span{font: 0.24rem/0.56rem '微软雅黑';margin-right:.36rem;text-align:center}
+    .con3 .hed-bd .tit .chakan{margin-right:.18rem}
+    .con3 .hed-bd .tit .chakan span.m-jiang{background:url(http://img1.lotour.com/zhuanti/nmg/m-jiang.png);font: 0.24rem/0.5rem '微软雅黑';margin-right:.35rem;width:1.5rem;height:.56rem;display:inline-block;background-size:100%;color:#0058a7}
+    .con3 .hed-bd .tit .chakan span.m-jiang a{color:#0058a7}
+    .con3 .hed-bd .tit .chakan span.guize{background:url(http://img1.lotour.com/zhuanti/nmg/m-jiang.png);font: 0.24rem/0.5rem '微软雅黑';margin-right:.35rem;width:1.5rem;height:.56rem;display:inline-block;background-size:100%;color:#0058a7}
+    .con3 .hed-bd .tit .chakan span.canyu{background:url(http://img1.lotour.com/zhuanti/nmg/m-canyu.png);font: 0.24rem/0.5rem '微软雅黑';width:1.5rem;height:.56rem;display:inline-block;background-size:100%;margin-right:0rem;color:#ec6909}
+    .con3 .hed-bd .bd-pic li{width:3.5rem;height:3.45rem}
+    .con3 .hed-bd .bd-pic li img{width:100%;height:2.35rem;border-radius:.05rem}
+    .con3 .hed-bd .bd-pic li .pic-info{display:block;    top: 2.33rem;height:1.1rem;background:none;background-color:#fff;border-bottom-left-radius: .05rem;
+        border-bottom-right-radius: .05rem;}
+    .con3 .hed-bd .bd-pic li .pic-info h2{margin-top:0.2rem;color:#000;font: 0.3rem/0.3rem '微软雅黑';text-align:left;margin-left:.2rem}
+    .con3 .hed-bd .bd-pic li .pic-info .zuozhe{font: 0.22rem/0.3rem '微软雅黑';color:#000;text-align:left;margin-left:.2rem;margin-top:.18rem;display:inline-block;float:left}
+    .pic-info .yuan{display:block;float:left;color:#000;position:relative;top:.2rem}
+    .bd-pic{padding:0rem .18rem;width:7.4rem}
+
+    .con3 .hed-bd .bd-pic li{margin:0rem;margin-right:0.14rem;margin-bottom:.1rem}
+    .con3 .hed-bd .bd-pic li:last-child{display:none}
+    .con3 .hed-bd .bd-pic li.mr0{margin-right:0.14rem}
+    .con3 .hed-bd .bd-pic li.two{margin-right:0rem}
+
+    .fanye{display:none}
+    .m-more{display:block;width:1.18rem;height:.5rem;margin:0 auto;margin-top: .4rem;}
+    .m-more img{width:100%}
+    .con4{background:url(http://img1.lotour.com/zhuanti/nmg/n-jiaodian_02.png) no-repeat;background-size:100%;height:auto;}
+    .con4 .bd-pic li{width:2.35rem;}
+    .con4 .bd-pic li .qi{background:url(http://img1.lotour.com/zhuanti/nmg/m-bott_03.png);width:2.35rem;height:.87rem;top:1.58rem;right:0rem}
+    .con4 .bd-pic{margin: 0;margin-left:-0.08rem;margin-top:2rem}
+    .con4 .bd-pic li .qi span{margin-top:.17rem}
+    .con4 .bd-pic  .qi span.m-1{width:1.71rem;text-align:center;font: 0.22rem/0.3rem '微软雅黑';}
+    .con4 .bd-pic  .qi span.m-2{width:1.8rem;text-align:center;font: 0.22rem/0.3rem '微软雅黑';}
+    .con4 .bd-pic  .qi span.m-3{width:1.5rem;text-align:center;font: 0.22rem/0.3rem '微软雅黑';}
+    .con4 .bd-pic  .qi i.biaodian{display:none}
+    .lunbo-cont{width:7.14rem;height:3.8rem;}
+    .lbcont-right, .tabpic, .tabpic ul li{width:7.14rem;height:2.82rem;}
+    .tabpic{top:-1.3rem}
+    .tabpic ul li{border-radius:.05rem;}
+    .tabpic ul li p{text-align:center}
+    .tabpic ul li p span{margin-left:0px}
+    .lbcont-left ul{margin-left:124px}
+    .lbcont-left ul li img{width:.85rem;height:.85rem}
+    .lbcont-left ul li p{display:none}
+    .lbcont-left ul li{margin:0;margin-right:.25rem}
+    .lbcont-left{top:2rem;width:9.7rem;height:1.2rem;left:50%;margin-left:-5.6rem}
+    .n-5{background:url(http://img1.lotour.com/zhuanti/nmg/m-feng_06.png) no-repeat;background-size:100%;height:auto;margin-top:-.6rem}
+    .fz{width:100%;padding-top:1.5rem}
+    .fz p{width:6.8rem;font: 0.22rem/0.35rem '微软雅黑';margin-left:.3rem}
+    .fz ul{margin:27px auto 0;width:99%;padding:0rem .18rem;margin-top:.35rem}
+    .fz ul li{height:2.23rem;width:2.3rem;margin:0;margin-right:.09rem;margin-bottom:.1rem}
+    .fz ul li.no{margin-right:0px}
+    .fz ul li.fzb{width:4.73rem}
+    .fz ul img{border-radius:.05rem}
+    .n-6{background:url(http://img1.lotour.com/zhuanti/nmg/m-quwei_27.png) no-repeat;background-size:100%}
+    .jx{padding-top:1.7rem;width:auto}
+    .jx p{width:6.8rem;font: 0.22rem/0.35rem '微软雅黑';margin-left:.3rem}
+    .jx .jxul{width:auto;padding: 0rem .18rem;    margin:0;margin-top:.35rem}
+    .jx .jxul .fl{width:4.73rem}
+    .jx .jxul .fr{width:2.32rem;margin-right: .03rem;}
+    .jx .jxul li{margin:0;margin-bottom:.1rem;}
+    .jx .jxul li img{border-radius:.05rem;}
+    .jx .jxul .fl li{height:2.2rem;width:2.3rem;margin-right:0.09rem}
+    .jx .jxul .fl li.fxb{width:4.72rem;margin-right:0rem}
+    .jx .jxul .fl li.no{margin-right:0rem}
+    .jx .jxul .fr li{width:2.31rem;height:1.65rem;margin-bottom:.08rem;}
+    .n-7 .ty .tyul li{width:2.3rem;margin:0;margin-right:0.09rem;margin-bottom:.1rem}
+    .n-7 .ty .tyul li.no{margin-right:0rem}
+    .n-7 .ty .tyul{width:auto ;padding:0rem .18rem}
+    .n-6{height:auto;}
+    .n-7{    background: url(http://img1.lotour.com/zhuanti/nmg/m-tiyan_02.png) no-repeat center;background-size:100%;height:12rem}
+    .n-7 .ty{padding-top:1.5rem;width:auto}
+    .n-7 .ty .tyul{margin:0;margin-top:.4rem}
+    .n-7 .ty .tyul li{height:2.2rem}
+    .n-7 .ty .tyul li img{border-radius:.05rem}
+    .n-7 .ty .tyul .fr{width:2.32rem;margin-right: .03rem;}
+    .n-7 .ty .tyul li.tyb{width:4.72rem}
+    .n-7 .ty .tyul li.tyb-2{width:4.72rem}
+    .n-7 .ty .tyul .fl{width:4.73rem;}
+    .n-7 .ty .tyul .fr li:nth-child(4){display:none}
+    .n-7 .ty .tyul .fr li:nth-child(5){display:none}
+    .m-add{display:block}
+    .m-add li{float:left}
+    .m-add li.tyb-2{margin-right:0rem}
+    .ty p{width:6.8rem;font: 0.22rem/0.35rem '微软雅黑';margin-left:.3rem}
+    .n-8{ background: url(http://img1.lotour.com/zhuanti/nmg/m-e_02.png) no-repeat center;background-size:100%;height:7.88rem}
+    .zl{padding-top: 1.5rem;}
+    .zl{width:100%}
+    .zl .zemul{padding:0rem .18rem;width:auto}
+    .zl .zemul li img{border-radius:.05rem}
+    .zl .zemul .fr{width:3.52rem;margin-right: .03rem;}
+    .zl p{width:7rem;font: 0.22rem/0.35rem '微软雅黑';margin-left:.3rem}
+    .zl .zemul{margin: 20px auto 0;}
+    .zl .zemul .fl{width:3.52rem}
+
+
+    .zl .zemul .fr li{width:100%;margin-bottom:.1rem;height:1.6rem}
+    .zl .zemul .fr li:nth-child(1){width:100%;margin-bottom:.1rem;height:1.7rem}
+
+
+    .zl .zemul .fl li{width:1.7rem;height:1.6rem;margin-bottom:.1rem;}
+    .zl .zemul .fl li.flt{width:3.52rem;height:1.7rem}
+    .zl .zemul .fl li.flb{width:1.72rem;height:3.29rem;margin-right:4px}
+    .n-9{ background: url(http://img1.lotour.com/zhuanti/nmg/m-bing_02.png) no-repeat center;background-size:100%;height:10.5rem}
+    .bing{padding-top:1.6rem;width:7.14rem;}
+    .bing p{width:6.8rem;font: 0.22rem/0.35rem '微软雅黑';margin-left:.3rem}
+    .bing ul{margin:20px auto 0px;width:100%}
+    .bing ul li{width:2.35rem;height:2.3rem;margin-right: .04rem;margin-left:0rem}
+    .bing ul li.no{margin-right: 0rem;}
+    .bing ul li img{height:1.59rem;border-radius:.08rem}
+    .bing ul li i{background: url(http://img1.lotour.com/zhuanti/nmg/m-tt_03.png) no-repeat center;background-size:100%;width:1.27rem;height:.26rem}
+    .bing ul li p{font: 0.22rem/0.3rem '微软雅黑';text-indent: 2px;margin-left:0px;margin-top:.1rem}
+
+    .n-10{display:none;height:auto}
+    .last{width:100%; overflow: hidden; position: relative;background: #f0f0f0;}
+    .n-10-2{display:block; }
+    .last .n-10-2 {background: url(http://img1.lotour.com/zhuanti/nmg/m-huigu_02.png) no-repeat center;background-size:100%;height:5rem; margin-left: auto; margin-right:auto;position: relative;overflow: hidden; z-index: 1;margin-left:.18rem}
+    .zhuan{padding-top:2rem}
+    .zhuan .z-box a{width:2.59rem;height:2rem;display: block}
+    .zhuan .z-box a img{width:2.59rem;height:2rem;display: block}
+    .lbcont-left li i{width:.25rem;height:.13rem;background:url(http://img1.lotour.com/zhuanti/nmg/m-ee.png) no-repeat;position: relative;top: -1.03rem;left: .32rem;}
+
+    .m-j{display:none;position:fixed;top:0rem;left:0rem;z-index:5;width:100%;height:100%;background-size:100%;background:rgba(0,0,0,0.6)}
+    .m-j-2{display:none;position:fixed;top:0rem;left:0rem;z-index:5;width:100%;height:100%;background-size:100%;background:rgba(0,0,0,0.6)}
+    .m-j .js{background:url(../img/m-jp_02.png) no-repeat;width:7.5rem;height:9rem;position:absolute;top:50%;left:50%;margin-left:-3.7rem;margin-top:-4.5rem;background-size:100%}
+    .m-j img{display:inline-block;position:fixed;top:.5rem;right:.5rem;width:.52rem;height:.52rem;}
+    .m-j-2 img{display:inline-block;position:fixed;top:.5rem;right:.5rem;width:.52rem;height:.52rem;}
+
+    .m-j-2 .cheng{background:url(../img/m-cheng.png) no-repeat;width:7.5rem;height:9rem;position:absolute;top:50%;left:50%;margin-left:-3.7rem;margin-top:-4.5rem;background-size:100%}
+    .tanceng .main .shangchuan{display:none;}
+    .tanceng .main{padding-top: 1.78rem;background:url(../img/m-wenan_02.png) no-repeat;width:7.5rem;height:9.1rem;left:50%;top:50%;margin-left:-3.7rem;margin-top:-4.5rem;background-size:100%}
+    .tanceng .main h2{display:none;}
+    .tanceng .main .p-65 input{margin-bottom: .2rem;border:none;font: 0.26rem/0.7rem '微软雅黑';
+        margin-top: 0rem;width:4.9rem;height:.67rem;margin-left:1.2rem;background:rgba(0,0,0,0.1)}
+    .tanceng .main .tishi{display:none;}
+    .tanceng .main .p-65{border-bottom:none;height:.67rem;margin-bottom: .2rem;}
+    footer .footer .wap .wap-wechat{top:.4rem;left:5.2rem}
+
+    .tanceng{position:fixed;top:0rem;left:0rem;z-index:5;width:100%;height:100%;background-size:100%;background:rgba(0,0,0,0.6)}
+    .tanceng .main .p-65 span.no{display:none}
+    .tanceng .main .chacha{display:inline-block;position:fixed;top:.5rem;right:.5rem;width:.52rem;height:.52rem;}
+    .tanceng .main .tijiao{}
+    .tanceng .main .m-sctp{float:left;display:block;width:2.2rem;height:.84rem;float:left;background:url(../img/sc.png) no-repeat;background-size:100%;}
+    .tanceng .main .tijiao{margin-right:0rem;margin-top:0rem;width:2.2rem;height:.84rem;float:left;background:url(../img/tj.png) no-repeat;background-size:100%;}
+    .tanceng .main .ti{width:4.4rem;height:.76rem;margin:0 auto;margin-top:.3rem}
+
+}
+
+
+@media screen and (max-width:412px){
+
+    .tabpic{top:-1.6rem}
+    .lbcont-left{top:1.6rem}
+
+
+}
+@media screen and (max-width:375px){
+    /*.con4 .bd-pic  .qi span.m-2{width:2rem}*/
+    .lbcont-left{margin-left:-6rem}
+    .n-5{margin-top:-.9rem}
+    .fz{padding-top:1.5rem}
+    #JWPlayer{width: 6.49rem; height: 4.58rem; position: relative;top: -.8rem;}
+
+}
+
+@media screen and (max-width:320px){
+    .con3 .hed-bd{margin-top:.8rem}
+    .con3 .hed-top .hed-txt{width:98%;}
+    .m-more{margin-top:.2rem}
+    .tabpic{top:-2.5rem}
+    .lbcont-left{top:1rem;width:10rem;padding:0rem .18rem;margin-left:-6.5rem}
+    /*.con4 .bd-pic  .qi span.m-1{width:2rem}*/
+    /*.con4 .bd-pic  .qi span.m-2{width:2.3rem}*/
+    /*.con4 .bd-pic  .qi span.m-3{width:1.8rem}*/
+    .lbcont-left ul li{margin-right:.2rem}
+    .n-9{height:11.3rem}
+    .bing{padding-top:2rem}
+
+
+
+}
